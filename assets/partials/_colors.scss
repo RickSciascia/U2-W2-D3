@@ -1,0 +1,13 @@
+$colors: (
+  testo: #f4f4f4,
+  Blue: #0e6cff,
+  Orange: #ff8700,
+  Green: #4caf50,
+  hero: #640fc5,
+);
+@each $color-name, $color-value in $colors {
+  .bg-#{$color-name} {
+    background-color: $color-value;
+    color: white;
+  }
+}

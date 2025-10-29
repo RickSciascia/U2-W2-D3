@@ -1,0 +1,18 @@
+$small: 12px;
+$md: 24px;
+$large: 48px;
+$x-large: 64px;
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+@mixin title-big {
+  font: {
+    size: $x-large;
+    weight: bold;
+  }
+  color: #1e1e1e;
+}
+.titleBig {
+  @include title-big();
+}

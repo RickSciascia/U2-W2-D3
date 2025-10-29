@@ -1,0 +1,14 @@
+@import "./colors";
+
+@each $color-name, $color-value in $colors {
+  .btn-#{$color-name} {
+    background-color: $color-value;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 2px;
+    border: none;
+  }
+}

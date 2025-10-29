@@ -1,0 +1,33 @@
+$sizes-map: (
+  zero: 0px,
+  sm: 10px,
+  normal: 15px,
+  medium: 20px,
+  lg: 25px,
+  xl: 50px,
+  xxl: 75px,
+);
+@each $key, $value in $sizes-map {
+  .padding-y-#{$key} {
+    padding-top: $value;
+    padding-bottom: $value;
+  }
+}
+@each $key, $value in $sizes-map {
+  .padding-x-#{$key} {
+    padding-left: $value;
+    padding-right: $value;
+  }
+}
+@each $key, $value in $sizes-map {
+  .margin-y-#{$key} {
+    margin-top: $value;
+    margin-bottom: $value;
+  }
+}
+@each $key, $value in $sizes-map {
+  .margin-x-#{$key} {
+    margin-left: $value;
+    margin-right: $value;
+  }
+}
