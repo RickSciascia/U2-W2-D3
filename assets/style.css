@@ -342,6 +342,7 @@ body {
   padding-right: 25px;
   border-radius: 2px;
   border: none;
+  cursor: pointer;
 }
 
 .btn-Blue {
@@ -353,6 +354,7 @@ body {
   padding-right: 25px;
   border-radius: 2px;
   border: none;
+  cursor: pointer;
 }
 
 .btn-Orange {
@@ -364,6 +366,7 @@ body {
   padding-right: 25px;
   border-radius: 2px;
   border: none;
+  cursor: pointer;
 }
 
 .btn-Green {
@@ -375,6 +378,7 @@ body {
   padding-right: 25px;
   border-radius: 2px;
   border: none;
+  cursor: pointer;
 }
 
 .btn-hero {
@@ -386,6 +390,7 @@ body {
   padding-right: 25px;
   border-radius: 2px;
   border: none;
+  cursor: pointer;
 }
 
 nav {
